@@ -1,0 +1,48 @@
+.LogoSearch {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  height: 40px;
+}
+.Search {
+  display: flex;
+  background-color: var(--inputColor);
+  border-radius: 10px;
+  padding: 5px;
+  height: 30px;
+  gap: 5px;
+}
+.Search > input {
+  background-color: transparent;
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(205, 166, 205);
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.s-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--buttonBg);
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+}
+h1 {
+  height: 30px;
+  margin-top: 0px;
+  font-size: 2rem;
+  background-image: var(--buttonBg);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
